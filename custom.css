@@ -1,5 +1,5 @@
 #app-body{
-    width: 405px; 
+    width: 420px; 
     height: auto;
 }
 
@@ -14,34 +14,33 @@
 #bottom-section{
     padding: 7%; 
 }
-.img-logo {
-    width: 65px;
+#img-person {
+    margin-top: 25%;
+    
   }
-  .img-person {
-    margin-top: 100%;
-  }
-  .header h3 {
+  
+#head-section h4 {
     font-size: 25px;
     font-weight: bold;
     margin-top: 17px;
   }
-  .header p {
+#head-section p {
     font-size: 15px;
   }
   
-  .header .col-4 {
+  /* .header .col-4 {
     padding: 0px;
   }
   .header .col-8 {
     padding-left: 0px;
-  }
+  } */
   .icon-round {
     width: 60px;
     height: 60px;
     border-radius: 100px;
     display: block;
   }
-  .round1 {
+  /* .round1 {
     background: green;
   }
   .round2 {
@@ -49,7 +48,7 @@
   }
   .round3 {
     background: blue;
-  }
+  } */
   .list {
     cursor: pointer;
   }
