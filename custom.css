@@ -60,6 +60,14 @@ body{
     padding-bottom: 10px;
   }
 
+  
+  #modelhead img{ 
+    width: 65px;
+    position: relative;
+    top: 8px;
+    
+  }
+
   #modelbody {
     /* position: fixed; */
     width: 420px;
@@ -68,6 +76,24 @@ body{
     height: 100%;
     background: white;
     
+  }
+  #modelbody .modal-content {
+    border-radius: 0;
+    border: none;
+  }
+  #modelhead{
+    border-radius: 0;
+    border-bottom-color: #e9ecef;
+    background-color: #e9ecef;
+    height: 65px;
+
+  }
+
+
+  .modal-body h3 {
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 25px;
   }
  .container {
     padding: 0px;
@@ -115,8 +141,10 @@ body{
     font-size: 18px;
     margin-top: 22px;
   } */
+
+
   /* Additional code for direction */
-  /* .modal.left .modal-dialog {
+  .modal.left .modal-dialog {
     position: fixed;
     margin: auto;
     width: 100%;
@@ -136,10 +164,10 @@ body{
   .modal.left .modal-body,
   .modal.right .modal-body {
     padding: 15px 15px 80px;
-  } */
+  }
   
-  /*Left*/
-  /* .modal.left.fade .modal-dialog {
+ /* Left*/
+  .modal.left.fade .modal-dialog {
     left: 0px;
     -webkit-transition: opacity 1s linear, left 1s ease-out;
     -moz-transition: opacity 1s linear, left 1s ease-out;
@@ -149,29 +177,18 @@ body{
   
   .modal.left.fade.in .modal-dialog {
     left: 0;
-  } */
+  }
   
   /* ----- MODAL STYLE ----- */
-  /* .modal-content {
-    border-radius: 0;
-    border: none;
-  }
+  /* 
   
   .modal-header .img-logo {
     position: relative;
     top: 8px;
   }
-  .modal-header {
-    border-bottom-color: #e9ecef;
-    background-color: #e9ecef;
-    height: 65px;
-  }
+
   
-  .modal-body h3 {
-    font-weight: bold;
-    font-size: 26px;
-    margin-top: 25px;
-  }
+  
   .modal-body a {
     color: #333;
   }
