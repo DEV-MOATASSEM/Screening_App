@@ -125,6 +125,22 @@
   .modal-body a {
     color: #333;
   }
+
+  #question{
+    
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #question-image {
+    
+    padding: 15%;
+    
+    
+  }
+  #question h3 {
+    font-weight: bold;
+    margin-top: 23px;
+  }
    /* .bottom {
     position: absolute;
     bottom: 20px;
@@ -134,18 +150,7 @@
     margin: 0 auto;
     max-width: 420px;
   }
-  .question-image {
-    position: absolute;
-    width: 66%;
-    margin: -39% auto;
-    top: 50%;
-    left: 50%;
-    margin-left: -33%;
-  }
-  .question h3 {
-    font-weight: bold;
-    margin-top: 23px;
-  }
+
   .qs {
     display: none;
   }
@@ -232,14 +237,3 @@
     display: block;
   } */
 
-  @media only screen and (max-width: 600px) {
-    html {
-      
-        width: 100%; 
-        height: auto;
-        margin-left: 0%;
-        margin-right: 0%;
-        margin-top: 0%;
-        margin-bottom: 0%;
-    }
-  }
