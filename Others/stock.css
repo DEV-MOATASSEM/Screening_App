@@ -183,9 +183,3 @@
       width: 371px;
       max-width: 80%;
   }
-  .question .row {
-    display: none;
-  }
-  .question .active {
-    display: block;
-  }

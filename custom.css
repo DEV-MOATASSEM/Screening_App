@@ -141,6 +141,16 @@
     font-weight: bold;
     margin-top: 23px;
   }
+
+
+  #question ol li {
+    margin-bottom: 2px;
+  }
+  #question ol {
+    padding-left: 20px;
+    font-size: 18px;
+    margin-top: 22px;
+  }
    /* .bottom {
     position: absolute;
     bottom: 20px;
@@ -157,14 +167,7 @@
   .qs.active {
     display: block;
   }
-  ol li {
-    margin-bottom: 2px;
-  }
-  ol {
-    padding-left: 20px;
-    font-size: 18px;
-    margin-top: 22px;
-  } */
+ */
 
 
   /* Additional code for direction */
@@ -230,10 +233,12 @@
       width: 371px;
       max-width: 80%;
   }
-  .question .row {
-    display: none;
-  }
-  .question .active {
-    display: block;
-  } */
+ */
+
+#question .row {
+  display: none;
+}
+#question .active {
+  display: block;
+}
 
